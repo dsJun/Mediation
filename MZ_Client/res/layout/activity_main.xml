@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mediation_3" >
+
+    <Button
+        android:id="@+id/button_workflow_list"
+        android:layout_width="203dp"
+        android:layout_height="wrap_content"
+        android:layout_x="85dp"
+        android:layout_y="344dp"
+        android:text="@string/button_workflow_list"
+        android:onClick="getWorkflowList" />
+
+    <Button
+        android:id="@+id/button_system_log"
+        android:layout_width="203dp"
+        android:layout_height="wrap_content"
+        android:layout_x="85dp"
+        android:layout_y="398dp"
+        android:text="@string/button_system_logs"
+        android:onClick="getSystemLog"  />
+    
+    <Button
+        android:id="@+id/button_missing_file"
+        android:layout_width="203dp"
+        android:layout_height="wrap_content"
+        android:layout_x="85dp"
+        android:layout_y="453dp"
+        android:text="@string/button_missing_files"
+        android:onClick="getMissingFile" />
+
+</AbsoluteLayout>
