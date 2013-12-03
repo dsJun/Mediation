@@ -42,7 +42,9 @@ public class Workflow implements Serializable{
 		this.iExecutionTime = iExecutionTime;
 	}
 	
-	
+	public void aa(){
+		
+	}
 	
 
 }
